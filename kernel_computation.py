@@ -62,7 +62,6 @@ print(p_normalize)
 print("______________________________")
 print("------------------------------")
 
-#calculate centered kernel through centered fai
 k_center1 = np.zeros((m,m))
 for i in range(m):
     for j in range(m):
@@ -72,7 +71,6 @@ print(k_center1)
 print("______________________________")
 print("------------------------------")
 
-#calculate normalized kernel through normalized fai
 k_normalize1 = np.zeros((m,m))
 for i in range(m):
     for j in range(m):
